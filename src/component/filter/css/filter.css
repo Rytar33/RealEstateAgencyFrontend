@@ -1,0 +1,242 @@
+.box {
+    height: 267px;
+    position: relative;
+    width: 1120px;
+  }
+  
+  .box .div {
+    height: 267px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1122px;
+  }
+  
+  .box .search-bar {
+    height: 59px;
+    left: 288px;
+    position: absolute;
+    top: 0;
+    width: 544px;
+  }
+  
+  .box .button {
+    height: 59px;
+    width: 546px;
+  }
+  
+  .box .overlap {
+    height: 59px;
+    position: relative;
+    width: 544px;
+  }
+  
+  .box .group-wrapper {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 544px;
+  }
+  
+  .box .group-2 {
+    height: 59px;
+    position: relative;
+    width: 546px;
+  }
+  
+  .box .input {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 378px;
+  }
+  
+  .box .overlap-group {
+    background-color: #1c3988;
+    border-radius: 4px;
+    height: 59px;
+    left: 394px;
+    position: absolute;
+    top: 0;
+    width: 150px;
+  }
+  
+  .box .text-wrapper {
+    color: #ffffff;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 23px;
+    left: 56px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    width: 54px;
+  }
+  
+  .box .search-icon {
+    height: 17px;
+    left: 24px;
+    position: absolute;
+    top: 21px;
+    width: 16px;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #141b2d;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    height: 59px;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: 27px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 208px;
+  }
+  
+  .box .group-233 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 129px !important;
+  }
+  
+  .box .group-instance {
+    background-image: url(./input-2.svg) !important;
+    left: 286px !important;
+    position: absolute !important;
+    top: 129px !important;
+  }
+  
+  .box .group-233-instance {
+    background-image: url(./input-3.svg) !important;
+    left: 572px !important;
+    position: absolute !important;
+    top: 129px !important;
+  }
+  
+  .box .design-component-instance-node {
+    background-image: url(./input-4.svg) !important;
+    left: 858px !important;
+    position: absolute !important;
+    top: 129px !important;
+  }
+  
+  .box .overlap-2 {
+    height: 35px;
+    left: 0;
+    position: absolute;
+    top: 73px;
+    width: 1120px;
+  }
+  
+  .box .rectangle {
+    background-color: #dadaee;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 18px;
+    width: 1120px;
+  }
+  
+  .box .rectangle-2 {
+    background-color: #f3f3fa;
+    height: 30px;
+    left: 471px;
+    position: absolute;
+    top: 5px;
+    width: 177px;
+  }
+  
+  .box .text-wrapper-3 {
+    color: #141b2d;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 509px;
+    letter-spacing: 0;
+    line-height: 34.2px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .box .group-3 {
+    height: 66px;
+    left: 286px;
+    position: absolute;
+    top: 201px;
+    width: 552px;
+  }
+  
+  .box .text-wrapper-4 {
+    color: #141b2d;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 34.2px;
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+  }
+  
+  .box .text-wrapper-5 {
+    color: #141b2d;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    left: 470px;
+    letter-spacing: 0;
+    line-height: 34.2px;
+    position: absolute;
+    top: 31px;
+    white-space: nowrap;
+  }
+  
+  .box .overlap-3 {
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 548px;
+  }
+  
+  .box .rectangle-3 {
+    background-color: #a3b1e1;
+    border-radius: 50px;
+    height: 4px;
+    left: 2px;
+    position: absolute;
+    top: 10px;
+    width: 546px;
+  }
+  
+  .box .ellipse {
+    background-color: #1c3988;
+    border-radius: 12px;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 24px;
+  }
+  
+  .box .ellipse-2 {
+    background-color: #1c3988;
+    border-radius: 12px;
+    height: 24px;
+    left: 524px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+  }
+  

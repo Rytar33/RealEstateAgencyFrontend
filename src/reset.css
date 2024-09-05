@@ -1,0 +1,188 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+button,
+input,
+select,
+optgroup,
+option {
+  margin: 0;
+  padding: 0;
+}
+
+/* Обнуление стилей у списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Убираем декорацию у ссылок */
+a {
+  text-decoration: none;
+}
+
+/* Обнуление границ у изображений и других встроенных объектов */
+img,
+iframe {
+  border: 0;
+}
+
+/* Сброс размеров у заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* Нормализация типографики */
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+/* Убираем выделение текста */
+::selection {
+  background: transparent;
+}
+
+/* Очистка флоатов */
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* Общие стили для таблиц */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.card {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.card-location {
+  color: #6c757d;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  /* Размер шрифта */
+  line-height: 1.6;
+  /* Межстрочный интервал */
+  color: #333;
+  /* Цвет текста */
+  background-color: #f8f8f8;
+  /* Цвет фона */
+  margin: 0;
+  /* Убираем отступы по умолчанию */
+  padding: 0;
+  /* Убираем внутренние отступы по умолчанию */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  /* Красивый шрифт для заголовков */
+  font-weight: bold;
+  /* Жирный шрифт для заголовков */
+  color: #444;
+  /* Цвет заголовков */
+}
+
+a {
+  color: #007bff;
+  /* Цвет ссылок */
+  text-decoration: none;
+  /* Убираем подчеркивание у ссылок */
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+p {
+  margin-bottom: 1em;
+  /* Отступ между параграфами */
+}
+
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+.custom-hover {
+  transition: transform 0.3s ease-in-out;
+}
+.custom-hover:hover {
+  transform: scale(1.2);
+}
+.custom-shadow {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.custom-color {
+  color: #ff0000;
+}
+.custom-svg {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></svg>'), auto;
+}
